@@ -1,0 +1,53 @@
+
+body {
+    text-align: center;
+    background-color: rgb(78, 181, 245);
+    color:white
+}
+
+header {
+    font-size: 150%;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header:hover {
+    background-color: rgb(78, 181, 245);
+    color: black;
+}
+main p {
+    font-size: 110%;
+    width: 25%;
+    margin: 10px auto;
+}
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 35px auto;
+    font-size: 125%;
+}
+.list {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    width: 30%;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 30px auto;
+}
+.quote {
+    font-size: 250%;
+    width: 17%;
+    margin: 40px auto; /*50px adds room top & bottom*/
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p{
+    width:18%;
+    margin: 0 auto;
+    color: black
+    
+}

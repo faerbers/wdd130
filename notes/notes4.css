@@ -1,0 +1,67 @@
+/*<body>
+    <div id="background"></div>
+  </body>   */
+
+
+#background-color {
+    background-color: lightblue;
+    height: 500px;
+    max-width: 1500px;
+}
+/* Use max and mins to make sure webiste is readable reagardless of device/screen used
+Good to check site on different devices  */
+
+#warm_list li {
+    display: inline;
+}
+main img {
+    display: block;
+}
+
+
+main p, main h1{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid red
+}
+
+main img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 2px red;
+}
+
+div{
+    height: 400px
+}
+.logo-box {
+    background-color: blue;
+}
+
+h1, h4 {
+    font-family: 'Lemon', 'Bradley Hand', sans-serif;
+    font-size: 45px;
+    color: #4b4b2a;
+}
+
+#product_gallery img {
+    width: 50%;
+}
+
+main img {
+    width: 40%;
+}
+/* or*/
+#img_container img {
+    width: 40%;
+}
+
+nav a:hover {
+    color: black;
+    background-color: rgba(255,255,255, 0.3);
+}
+button:hover {
+    background-color: #4b4b2a9d;
+}
