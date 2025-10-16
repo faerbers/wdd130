@@ -13,11 +13,32 @@
   --nav-hover-link-color: #DAD3C5;
   --nav-hover-background-color: #361B07;*/
 
+/*--heading-font: "Gravitas One";
+  --paragraph-font: "Lexend Deca", Helvetica, sans-serif;
+ 
+     font-family: "Lexend Deca", Helvetica, sans-serif; 
+    font-family: 'Gravitas One', sans-serif;  
+    @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Lexend+Deca&display=swap'); 
+  */
+
+  
 .icon {
     width: 80px;
+    padding-top: 10px;
   }
+#logo_link {
+    padding-top: 5px;
+}
+.logo {
+    margin-bottom: 30px;
+    width: 100px;
+    height: auto;
+}
 .home-title {
     color: #361B07;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }  
 #content {
     max-width: 1600px;
@@ -26,6 +47,7 @@
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px 10px 35px 20px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -39,6 +61,9 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #7AB6CD ; 
@@ -46,39 +71,71 @@ main section {
 
 body {
     background-color: #DAD3C5 ;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:#627543;
+
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #627543; /*change if needed*/
 }
 nav a {
     background-color: #627543;
     color: #DAD3C5;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #361B07;
     color: #7AB6CD;
 }
+
 .book, .join {
     text-decoration: none;
     background-color:#DAD3C5 ;
     color: #361B07;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #361B07 ;
     color: #DAD3C5;
 }
+.mountains {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
 .msg {
     background-color:#7AB6CD  ;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 50px;
 }
 .msg h2 {
     color: #361B07;
 }
 .msg p {
     color: #361B07;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #361B07;
-    color: #361B07;
+    color: #DAD3C5; 
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -94,5 +151,7 @@ footer a {
 footer a:hover {
     color: #7AB6CD;
 }
-
+footer .social img {
+    padding-top: 15px;
+}
 
