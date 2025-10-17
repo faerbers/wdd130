@@ -1,26 +1,4 @@
-/*  --primary-color: #7AB6CD   ;
-  --secondary-color: #361B07 ;
-  --accent1-color: #627543;
-  --accent2-color: #DAD3C5;
-
-    --headline-color-on-white: #7AB6CD;  
-  --headline-color-on-color: white; 
-  --paragraph-color-on-white: #361B07; 
-  --paragraph-color-on-color: white;  
-  --paragraph-background-color: #7AB6CD  ;
-  --nav-link-color: white;
-  --nav-background-color: #627543;
-  --nav-hover-link-color: #DAD3C5;
-  --nav-hover-background-color: #361B07;*/
-
-/*--heading-font: "Gravitas One";
-  --paragraph-font: "Lexend Deca", Helvetica, sans-serif;
- 
-*/
-    @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Lexend+Deca&display=swap'); 
-  
-
-  
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Lexend+Deca&display=swap');
 .icon {
     width: 90px;
     padding-top: 10px;
@@ -157,4 +135,3 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
-
