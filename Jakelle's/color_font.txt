@@ -1,0 +1,12 @@
+#D11616  Fire Engiine red
+#1D5A1D Hunter Green
+#A4A4A4 Silver
+#FFFFFF white
+#F5D0000 Gold
+
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');;
+        
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Schoolbell&display=swap');
+</style>
