@@ -10,3 +10,10 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Schoolbell&display=swap');
 </style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Schoolbell&display=swap');
+</style>
+
+-Schoolbell
+-Merriweather
