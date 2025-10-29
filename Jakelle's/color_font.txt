@@ -2,7 +2,7 @@
 #1D5A1D Hunter Green
 #A4A4A4 Silver
 #FFFFFF white
-#F5D0000 Gold
+#F5D000 Gold
 
 
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');;
