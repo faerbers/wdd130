@@ -297,4 +297,27 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+    #faq_image {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: auto;
+    z-index: 0;
+    grid-column: 2/10;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+    .faq_button {
+    text-align: center;
+    color: #361B07;
+    background-color:#7AB6CD  ;
+    line-height: 1.5em;
+    padding: 15px;
+    margin-top: 50px;
+    grid-column: 6/8;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px black;
+    z-index: 1;
+}
 }
