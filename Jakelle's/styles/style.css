@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Schoolbell&display=swap');
+/*Header*/
+#header {
+    background-color: #F5D000;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.logo {
+    margin-bottom: 30px;
+    width: 150px;
+    border: 5px double #D11616;
+    height: auto;
+    border-radius: 50%;
+    left: 10px;
+}
+nav{
+    display: flex;
+    font-family: "Schoolbell","IM Fell French Canon SC";
+    font-size: 200%;
+    padding: 14px 16px;
+    justify-content: space-around;
+    align-items: center; 
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: #1D5A1D;
+    float: right;
+}
+nav a:hover {
+    background-color: #D11616;
+    color: white;
+}
+/*Home Page*/
+h2 {
+    color: #D11616;
+    font-family: "Schoolbell","IM Fell French Canon SC";
+    font-size: 500%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#Jakelle {
+    border-radius: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px dashed #F5D000;
+}
+#prt_1 p {
+    text-align: center;
+    color: #1D5A1D;
+    font-family: "Merriweather", Lato, Helvetica, sans-serif;
+    font-size: 200%;
+}
+#family {
+    border-radius: 30%;
+    display: block;
+    margin-left: 5%;
+    border: 10px dashed#F5D000;
+}
+#prt_2 p{
+    font-family: "Merriweather", Lato, Helvetica, sans-serif;
+    color: #1D5A1D;
+    font-size: 200%;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+/*footer*/
+footer {
+    background-color: #1D5A1D;
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    font-size: 1em;
+    color: white;
+}
+footer p a:hover {
+    text-decoration: underline;
+    color: #D11616;
+}
+footer a {
+    text-decoration: none;
+    color: #F5D000;
+}
+footer .social img {
+    padding-top: 15px;
+    border-radius: 50%;
+}
