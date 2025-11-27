@@ -10,7 +10,7 @@ header {
     border: 5px double #D11616;
     height: auto;
     border-radius: 50%;
-    padding-top: 5px;
+    padding: 10px 10px;
     justify-self: center;
     align-self: center;
 }
@@ -24,9 +24,9 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 35px;
+    padding-top: 50px;
     margin-top: 20px;
     color: #1D5A1D;
-    float: right;
 }
 nav a:hover {
     background-color: #D11616;
