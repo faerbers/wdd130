@@ -1,36 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Schoolbell&display=swap');
 /*Header*/
-#header {
+header {
     background-color: #F5D000;
-    max-width: 2000px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 .logo {
-    margin-bottom: 30px;
     width: 150px;
     border: 5px double #D11616;
     height: auto;
     border-radius: 50%;
-    left: 10px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 nav{
     display: flex;
     font-family: "Schoolbell","IM Fell French Canon SC";
     font-size: 200%;
-    padding: 14px 16px;
     justify-content: space-around;
-    align-items: center; 
 }
 nav a {
     text-align: center;
     text-decoration: none;
     padding: 35px;
+    margin-top: 20px;
     color: #1D5A1D;
     float: right;
 }
 nav a:hover {
     background-color: #D11616;
     color: white;
+}
+/*Body(affects all)*/
+body {
+    max-width: 2000px;
+    margin: 0 auto;
 }
 /*Home Page*/
 h2 {
@@ -68,7 +73,12 @@ h2 {
     margin: 0 auto;
     text-align: center;
     width: 1000px;
+    padding-top: 10px;
 }
+/*Volunteer*/
+
+/*Donate*/
+
 /*footer*/
 footer {
     background-color: #1D5A1D;
