@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div id="header"> 
+
     <header>
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/Logo.png" alt="Jakelle Logo">
@@ -19,24 +19,54 @@
             <a href="site-plan.html">Site Plan</a>
         </nav>
     </header>
-    </div>
     <div>
         <h2>Donate</h2>
-        <img src="images/rsz_toys.jpg" alt="image for page3">
-        <p class="toy_info">Below is a list of types of toys and price range we like our donations to be. Also Toys that are donated 
-            for Jakelle must be brand new. Note the list below is a helpful guidline and we're open to nicer gifts as well if you have
-             any to donate.</p>
-        <p class="toy_info">[Ages 3-11/ value of $20-$25 -Imaginary Play toys -Baby Dolls, Action Figures -Sports Equipment -Scooters, 
-            Trikes, & Bikes -Building Blocks or Legos -Trucks, Arts & Crafts]</p>
-        <p class="toy_info">[Ages 12-18/ value of $25-30 -Sports Equipment -Hair Styling Equipment, Makeup -Wireless Headphones/ Speakers
-             -Skateboards & -Scooters -Lego's-Age 13+, Art Kits -Perfume, Colonge Fragrance Sets]</p>
+            <div id="toy">
+                <img id="toys" src="images/rsz_toys.jpg" alt="image for page3">
+                <p class="toy_info">Below is a list of types of toys and price range we like our donations to be. Also Toys that are donated 
+                    for Jakelle must be brand new. Note the list below is a helpful guidline and we're open to nicer gifts as well if you have
+                    any to donate.</p>
+            </div>
+        <button class="accordion">Ages 3-11 value of $20-$25</button>
+            <p class="panel">-Imaginary Play toys
+            <br>-Baby Dolls, Action Figures
+            <br>-Sports Equipment -Scooters, Trikes, & Bikes
+            <br>-Building Blocks or Legos
+            <br>-Trucks, Arts & Crafts</p>
+
+
+        <button class="accordion">Ages 12-18 value of $25-30</button>
+            <p class="panel">-Sports Equipment
+            <br>-Hair Styling Equipment, Makeup 
+            <br>-Wireless Headphones/ Speakers
+            <br>-Skateboards & -Scooters 
+            <br>-Lego's-Age 13+, Art Kits 
+            <br>-Perfume, Colonge Fragrance Sets]</p>
+
+
         <p class="donate_location">You can donate at Helen's Hope Chest at 234 St N Jolly Rd2 </p>
     </div>
     <div>
-        <img src="images/Jakelle_qr_code.png" alt="image for page3">
+        <img id="qr_code" src="images/Jakelle_qr_code.png" alt="image for page3">
         <p class="qr">Or donate money directly through this QR code that we can use to buy toys in age ranges and genders we need. 
             Or buy books we give away at the book nook at Jakelle's.</p>
-    </div>    
+    </div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>          
 <footer>
             <p>Jakelle's Toy Chest &copy; 2025 - Shelby Faerber</p>
             <p><a href="index.html">Home Page</a></p>
@@ -54,6 +84,12 @@
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
             </div>
-</footer>    
+</footer>
+  
 </body>
 </html>
+<!--
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>-->
